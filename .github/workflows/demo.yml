@@ -8,12 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - name: Run a shell command
       - run: echo Hello Github Action
   build2:
-    name: Hello world action
+    name: Hello world action 2
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - name: Run a shell command
       - run: echo Hello Github Action
