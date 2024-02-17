@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Print Current Date and Time
-        run: echo "Current date and time: $(date)"
+        run: echo Current date and time: $(date)
       - name: Run a shell command
         run: echo "Hello Github Action"
 
