@@ -3,14 +3,13 @@ on:
   schedule:
     - cron: "* * * * *"
 jobs:
-  build:
+    build:
     name: Hello world action
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
       - name: Run a shell command
         run: echo "Hello Github Action"
-
    build2:
     name: Hello world action
     runs-on: ubuntu-latest
